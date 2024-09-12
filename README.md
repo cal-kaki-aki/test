@@ -2,11 +2,13 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
 
 ## Getting Started
 
-First, run the development server:
+ローカル環境でプロジェクトを開き、下記コマンドを実行
 
 ```bash
+
 npm install
 npm run dev
+
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
