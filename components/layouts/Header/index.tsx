@@ -9,7 +9,9 @@ export const Header = () => {
                     <Link href="/">Todo List app</Link>
                 </h1>
             </div>
-            <Button size="sm">New Task</Button>
+            <Button size="sm">
+                <Link href="create/">New Task</Link>
+            </Button>
         </header>
 
     );
