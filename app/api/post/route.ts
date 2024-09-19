@@ -20,6 +20,7 @@ export async function GET(req: Request) {
 	};
 }
 
+// todo新規作成API
 export async function POST(req: Request) {
 	try {
 		const request = await req.json();
@@ -32,6 +33,7 @@ export async function POST(req: Request) {
 	};
 }
 
+// todo削除API
 export async function DELETE(req: Request) {
 	try {
 		const {id} = await req.json();
